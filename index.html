@@ -26,9 +26,24 @@
         Blogr
       </div>
       <ul class="header__nav__ul">
-        <li class="header__nav__ul__li">Product <img src="images/icon-arrow-light.svg" class="arrow"></li>
-        <li class="header__nav__ul__li">Company <img src="images/icon-arrow-light.svg" class="arrow"></li>
-        <li class="header__nav__ul__li">Overview <img src="images/icon-arrow-light.svg" class="arrow"></li>
+        <li class="header__nav__ul__li">Product <img src="images/icon-arrow-light.svg" class="arrow"><div class="menu hidden">
+          <div class="menu__item">Overview</div>
+          <div class="menu__item">Pricing</div>
+          <div class="menu__item">Marketplace</div>
+          <div class="menu__item">Features</div>
+          <div class="menu__item">Integrations</div>
+        </div></li>
+        <li class="header__nav__ul__li">Company <img src="images/icon-arrow-light.svg" class="arrow"><div class="menu hidden">
+          <div class="menu__item">About</div>
+          <div class="menu__item">Teams</div>
+          <div class="menu__item">Blogs</div>
+          <div class="menu__item">Careers</div>
+        </div></li>
+        <li class="header__nav__ul__li">Overview <img src="images/icon-arrow-light.svg" class="arrow"><div class="menu hidden">
+          <div class="menu__item">Contact</div>
+          <div class="menu__item">Newsletter</div>
+          <div class="menu__item">LinkedIn</div>
+        </div></li>
       </ul>
       <div class="header__nav__login-and-signup">
         <div class="login">
@@ -123,58 +138,70 @@
         Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
         capable of producing even the most complicated sites.
       </p>
-    </section>
-    <section class="second-section">
-      <img
-        src="images/illustration-phones.svg"
-        class="second-section__background-phones"
-      />
-      <div class="second-section__body">
-        <h2 class="second-section__body__subtitle">
-          State of the Art Infrastructure
-        </h2>
-        <p class="second-section__body__paragraph">
-          With reliability and speed in mind, worldwide data centers provide the
-          backbone for ultra-fast connectivity. This ensures your site will load
-          instantly, no matter where your readers are, keeping your site
-          competitive.
-        </p>
-      </div>
-    </section>
-    <section class="third-section">
-      <img
-        src="images/illustration-laptop-desktop.svg"
-        class="third-section__background"
-      />
-      <div class="third-section__body">
-        <h2 class="third-section__body__subtitle">Free, open, simple</h2>
-        <p class="third-section__body__paragraph">
-          Blogr is a free and open source application backed by a large
-          community of helpful developers. It supports features such as code
-          syntax highlighting, RSS feeds, social media integration, third-party
-          commenting tools, and works seamlessly with Google Analytics. The
-          architecture is clean and is relatively easy to learn.
-        </p>
-        <h2 class="third-section__body__subtitle">Powerful tooling</h2>
-        <p class="third-section__body__paragraph">
-          Batteries included. We built a simple and straightforward CLI tool
-          that makes customization and deployment a breeze, but capable of
-          producing even the most complicated sites.
-        </p>
-      </div>
-    </section>
-    <footer></footer>
-    <!-- 
-  Marketplace
-  Features
-  Integrations
+    </div>  
+  </section>
+  <footer class="footer">
+    <img src="images/logo.svg" class="footer__logo">
+    <nav class="footer__nav">
+      <ul class="footer__nav__ul">
+        <li class="footer__nav__ul__title">
+          Product
+        </li>
+        <li class="footer__nav__ul__li">
+          Overview
+        </li>
+        <li class="footer__nav__ul__li">
+          Pricing
+        </li>
+        <li class="footer__nav__ul__li">
+          Marketplace
+        </li>
+        <li class="footer__nav__ul__li">
+          Features
+        </li>
+        <li class="footer__nav__ul__li">
+          Integrations
+        </li>
+      </ul>
+      <ul class="footer__nav__ul">
+        <li class="footer__nav__ul__title">
+          Company
+        </li>
+        <li class="footer__nav__ul__li">
+          About
+        </li>
+        <li class="footer__nav__ul__li">
+          Team
+        </li>
+        <li class="footer__nav__ul__li">
+          Blog
+        </li>
+        <li class="footer__nav__ul__li">
+          Careers
+        </li>
+      </ul>
+      <ul class="footer__nav__ul">
+        <li class="footer__nav__ul__title">
+          Connect
+        </li>
+        <li class="footer__nav__ul__li">
+          Contact
+        </li>
+        <li class="footer__nav__ul__li">
+          Newsletter
+        </li>
+        <li class="footer__nav__ul__li">
+          LinkedIn
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <!-- 
+
 
   Company
 
-  About
-  Team
-  Blog
-  Careers
+
 
   Connect
 
@@ -205,5 +232,10 @@
   Contact
   Newsletter
   LinkedIn -->
-  </body>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./js/app.js"></script>
+</body>
 </html>
